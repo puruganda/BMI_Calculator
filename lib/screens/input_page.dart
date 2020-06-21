@@ -103,7 +103,7 @@ class _InputPageState extends State<InputPage> {
                       overlayShape:
                           RoundSliderOverlayShape(overlayRadius: 30.0),
                       overlayColor: Color(0x1FEA1556),
-                      trackHeight: 3.0,
+                      trackHeight: 3.5,
                     ),
                     child: Slider(
                       value: height.toDouble(),
