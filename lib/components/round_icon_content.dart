@@ -16,7 +16,6 @@ class RoundIconButton extends StatelessWidget {
       elevation: 6.0,
       child: Icon(
         icon,
-        size: 35.0,
       ),
       onPressed: onTap,
     );

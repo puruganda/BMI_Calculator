@@ -9,14 +9,17 @@ const kGenderIconSize = 80.0;
 const kActiveColor = Colors.white;
 const kInactiveColor = Color(0xFF8E8E99);
 
+const kBottomButtonHeight = 65.0;
+
 const kBottomButtonTextStyle = TextStyle(
-  fontWeight: FontWeight.w600,
+  fontWeight: FontWeight.w500,
   fontSize: 22.0,
 );
 
 const kLabelTextStyle = TextStyle(
   color: kInactiveColor,
-  fontSize: 20.0,
+  fontSize: 18.0,
+  fontWeight: FontWeight.w500,
 );
 
 const kNumberTextStyle = TextStyle(

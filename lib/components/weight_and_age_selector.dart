@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:bmicalculator/constants.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'round_icon_content.dart';
 
 class WeightAndAgeSelector extends StatelessWidget {
@@ -31,11 +32,11 @@ class WeightAndAgeSelector extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             RoundIconButton(
-              icon: Icons.remove,
+              icon: FontAwesomeIcons.minus,
               onTap: onTapMinus,
             ),
             RoundIconButton(
-              icon: Icons.add,
+              icon: FontAwesomeIcons.plus,
               onTap: onTapPlus,
             ),
           ],
