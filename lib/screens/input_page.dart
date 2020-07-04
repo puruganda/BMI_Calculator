@@ -110,6 +110,7 @@ class _InputPageState extends State<InputPage> {
                       min: 120,
                       max: 220,
                       onChanged: (double newValue) {
+                        print(newValue);
                         setState(() {
                           height = newValue.round();
                         });
