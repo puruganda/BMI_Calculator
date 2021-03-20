@@ -5,3 +5,5 @@ This app is inspired by the design made by _Ruben Vaalt_.
 
 ## Sample of _BMI Calculator_
 ![BMI Calculator Sample](https://github.com/puru-ganda/images/blob/master/bmi_calculator_pics/bmi_calculator_gif.gif)
+
+# hi this is karan
